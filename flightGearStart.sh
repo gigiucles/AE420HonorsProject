@@ -1,0 +1,22 @@
+#!/bin/bash
+/Users/gigi/Desktop/FlightGear.app/Contents/MacOS/fgfs \
+  --fg-root=/Applications/FlightGear.app/Contents/Resources/data \
+  --aircraft=c172p \
+  --fdm=network,localhost,5501,5502,5503 \
+  --multiplay=in,25,localhost,5701 \
+  --multiplay=out,25,localhost,5702 \
+  --enable-hud \
+  --fog-fastest \
+  --enable-clouds3d \
+  --start-date-lat=2004:06:01:09:00:00 \
+  --enable-sound \
+  --in-air \
+  --prop:/engines/engine0/running=true \
+  --enable-freeze \
+  --airport=OAK \
+  --runway=12 \
+  --altitude=5000 \
+  --heading=0 \
+  --offset-distance=0 \
+  --offset-azimuth=0 \
+  --enable-terrasync
